@@ -9,7 +9,7 @@ export function renderCatalog() {
             id="card-produto-${produtoCatalogo.id}"
             >
             <img 
-            src="assets/img/${produtoCatalogo.imagem}" 
+            src="./assets/img/${produtoCatalogo.imagem}" 
             alt="Produto 1 do Magazine Hashtag."
             class="group-hover:scale-125 duration-300 group-hover:mb-10 rounded-lg shadow-xl shadow-slate-300"
             />
